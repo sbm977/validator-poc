@@ -5,6 +5,14 @@ THe database used is inMemory meaning all the updates performed is valid for the
 The DB is created with Employee table created automatically by Spring JPA.
 The employee table is then inserted with some sample data define in src/main/resources/data.sql file - Spring JPA does it automatically
 
+
+To run the app:
+1. Import the project in the Eclipse (Install Buildship gradle plugin if gradle is not shown as option in import )
+2. Refresh the project: Right Click on Project Structure > Gradle > Refresh Gradle Project
+3. Run com.entity.validator.validaorpoc.ValidaorPocApplication.java as Java Application
+
+
+
 Rest Endpoint:
 1. To get user by Name:
 GET - http://localhost:9000/employee/name/{name}
